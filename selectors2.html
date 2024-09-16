@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <link rel="stylesheet" href="selectors2.css">
+</head>
+
+<body>
+    <header>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact">Contact</a>
+    </header>
+    <div class="parent1">
+
+        <div class="head">
+            <div class="one">
+                <h1 id="Home">Welcome to My Portfolio</h1>
+            </div>
+        </div>
+        <div class="parent2">
+            <h2 id="About">About me</h2>
+            <div class="child">
+                <img src="https://yt3.googleusercontent.com/N2aSyETpXVIBHc7HxBBv4tnNVg-EntzkKIslNLdLZRzKRCWID1yaogsCiVNtS0aDavhGTAfc7Q=s900-c-k-c0x00ffffff-no-rj"
+                    alt="" width="120px">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor labore quo deleniti libero voluptas,
+                    veritatis quibusdam asperiores ducimus itaque culpa.</p>
+            </div>
+        </div>
+        <div class="parent3">
+            <h2 id="Skills">My Skills</h2>
+            <table border="1" cellspacing="0" cellpadding="20" width="99%">
+                <thead>
+                    <tr bgcolor="skyblue">
+                        <th align="left">Skill</th>
+                        <th align="left">Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>JAVASCRIPT</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="parent4">
+            <h2 id="Portfolio">My work</h2>
+            <div class="three">
+                <div class="projects">
+                    <img src="" alt="project1">
+                    <h3>Project one</h3>
+                    <p>description of project one</p>
+                </div>
+                <div class="projects">
+                    <img src="" alt="project2">
+                    <h3>Project two</h3>
+                    <p>description of project two</p>
+                </div>
+                <div class="projects">
+                    <img src="" alt="project3">
+                    <h3>Project three</h3>
+                    <p>description of project three</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="parent5">
+            <h2 id="Contact">Contact me</h2>
+            <label for="Name">Name:</label><br><br>
+            <input type="text" id="Name"><br><br>
+            <label for="Email">Email:</label><br><br>
+            <input type="email" id="Email"><br><br>
+            <label for="sub">Subject:</label><br><br>
+            <input type="text" id="sub"><br><br>
+            <label for="mes">Message</label><br><br>
+            <textarea name="Message" id="mes"></textarea><br><br>
+            <input type="button" value="Send Message" id="but">
+        </div>
+    </div>
+    <footer>
+        &#169;2024 My portfolio
+    </footer>
+
+
+</body>
+
+</html>
